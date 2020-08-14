@@ -1,0 +1,22 @@
+.toolBar{
+    background-color: white;
+    border-bottom: black;
+    border-bottom: solid;
+    border-bottom-width: thin;
+    }
+    .container{
+        margin-top: 58px;
+    }
+    .backToRegister
+{
+    top: 101px;
+    left: 129px;
+    border-color: lightseagreen;
+    border-style: solid;
+    border-width: thin;
+    background: lightseagreen;
+    color: white;
+}
+h1{
+    margin-left: 147px;
+}
