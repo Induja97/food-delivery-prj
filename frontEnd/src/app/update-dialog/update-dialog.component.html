@@ -1,0 +1,22 @@
+<div mat-dialog-content class="content">
+    <table style="width:70%">
+        <tr>
+          <th colspan="3"> <h1 mat-dialog-title>Add Menu Items</h1></th>
+        </tr>
+        <tr>
+          <td><label class="itemName">Item Name</label></td>
+          <td><input type="text" class="itemNameInput" [(ngModel)] = 'nameVal' placeholder="Enter Item Name"></td>
+        </tr>
+        <tr>
+          <td><label class="itemDesc">Item Description</label></td>
+          <td><input type="text" class="itemDescInput" [(ngModel)] = 'descVal' placeholder="Enter Item Description"></td>
+        </tr>
+        <tr>
+          <td><label class="priceVal">Item Price</label></td>
+          <td><input type="number" class="itemPriceInput" [(ngModel)] = 'priceVal' placeholder="Enter Item Price"></td>
+        </tr>
+        <tr>
+          <td><input class="btn btn-success" id="submitBtn" type="submit" value="Update Item" (click)="updateItem()"></td>          
+        </tr>
+        </table>
+    </div>
